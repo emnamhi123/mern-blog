@@ -36,6 +36,7 @@ const userSlice = createSlice({
       state.loading = false;
       state.error = action.payload;
     },
+   
   },
 });
 
@@ -46,6 +47,7 @@ export const {
   updateStart,
   updateSuccess,
   updateFailure,
+
 } = userSlice.actions;
 
 export default userSlice.reducer;

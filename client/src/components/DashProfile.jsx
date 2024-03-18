@@ -14,6 +14,7 @@ import {
   updateStart,
   updateSuccess,
   updateFailure,
+  
 } from '../redux/user/userSlice';
 import { useDispatch } from 'react-redux';
 
@@ -125,6 +126,7 @@ export default function DashProfile() {
       setUpdateUserError(error.message);
     }
   };
+ 
     return (
       <div className='max-w-lg mx-auto p-3 w-full'>
       <h1 className='my-7 text-center font-semibold text-3xl'>Profile</h1>
